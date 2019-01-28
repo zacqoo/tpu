@@ -211,7 +211,7 @@ class ImageNetInput(ImageNetTFExampleInput):
                data_dir,
                image_size=224,
                num_parallel_calls=8,
-               cache=False):
+               cache=True):
     """Create an input from TFRecord files.
 
     Args:
